@@ -14,8 +14,8 @@
     <div class="ascii">WELCOME</div>
     <h1> Hi, I'm Edoardo Failla</h1>
     <div class="edu">
-        <p><i class="fas fa-graduation-cap"></i> BSc. Mathematics for Engineering</p>
         <p><i class="fas fa-graduation-cap"></i> MSc. Mathematical Engineer</p>
+        <p><i class="fas fa-graduation-cap"></i> BSc. Mathematics for Engineering</p>
     </div>
   </header>
 
@@ -23,7 +23,6 @@
     <a href="#about">About</a>
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
-    <a href="#playground">Playground</a>
   </nav>
 
   <section id="about">
@@ -35,21 +34,37 @@
     <h2>Projects</h2>
     <div class="project">
         <h3>
+          <a href="https://github.com/tucob97/memtuco" target="_blank">
+            <i class="fab fa-github"></i> A RDBMS built from scratch in Rust          </a>
+        </h3>
+        <p>An experimental toy RDBMS for learning purposes.</p>
+        <a class="project-link" href="https://github.com/tucob97/memtuco" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project">
+        <h3>
+          <a href="https://github.com/tucob97/uklns" target="_blank">
+            <i class="fab fa-github"></i> UKLns (Under Kilo LiNeS)         </a>
+        </h3>
+        <p>An experimental toolkit to chat with and search small GitHub repositories—without ever cloning them locally.</p>
+        <a class="project-link" href="https://github.com/tucob97/uklns" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project">
+        <h3>
           <a href="https://github.com/tucob97/Adult_data" target="_blank">
             <i class="fab fa-github"></i> Income Prediction - UCI Adult Census Dataset
           </a>
         </h3>
         <p>EDA and development of predictive models (SVM, Decision Tree, Random Forest, AdaBoost)</p>
         <a class="project-link" href="https://github.com/tucob97/Adult_data" target="_blank">View on GitHub</a>
-      </div>
-      <div class="project">
+    </div>
+    <div class="project">
         <h3>
           <a href="https://github.com/tucob97/CUDA_Conway" target="_blank">
             <i class="fab fa-github"></i> Conway's Game of Life (CUDA Implementation)          </a>
         </h3>
         <p>Parallel implementation of Conway's Game of Life using CUDA & C/C++, with support for two GPUs.</p>
         <a class="project-link" href="https://github.com/tucob97/CUDA_Conway" target="_blank">View on GitHub</a>
-      </div>
+    </div>
   </section>
 
   <section id="contact">
@@ -67,27 +82,6 @@
         <a href="https://github.com/tucob97" target="_blank">GitHub</a>
       </p>
   </section>
-
-  <section id="playground">
-    <h2>Playground</h2>
-    <div class="game">
-        <h3 class="insert-coin">Guess number</h3>
-        <p>Can you guess the number between 1 and 100?</p>
-        <input type="number" id="guessInput" placeholder="Enter your guess" />
-        <button onclick="checkGuess()">Guess</button>
-        <p id="feedback"></p>
-    </div>
-    <div class="game">
-        <h3 class="insert-coin">Tic-Tac-Toe</h3>
-        <div id="status">Player Turn: X</div>
-        <div id="board"></div>
-        <button id="restart">Restart Game</button>
-    </div>
-  </section>
-
-  <script src="game.js"></script>
-
-
 
   <footer>
     <p>&copy; 2025 Edoardo Failla</p>
